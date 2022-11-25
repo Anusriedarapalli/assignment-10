@@ -1,0 +1,20 @@
+list=[1,4,6,8,9,11,21]
+print('enter any number')
+n=int(input())
+if n in list:
+    print('yes')
+else:
+    print('no')
+ 
+output:enter any number
+       8
+       yes
+
+list1=[1,6,9,10,25,51]
+min=list[0]
+for i in list1:
+ if i<min:
+    print("min value",min)
+  
+  output: 1
+        yes
